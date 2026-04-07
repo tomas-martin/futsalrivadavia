@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Futsal Rivadavia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#inicio" class="nav-logo">
+      <span class="logo-icon"><img src="assets/escudo.png" alt="Logo" /></span>
+      <span class="logo-text">FUTSAL<span>RIVADAVIA</span></span>
+    </a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#club">El Club</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#cuotas">Cuotas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+      <li><a href="admin.html" class="nav-admin-btn">Admin</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="inicio">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-content">
+    <div class="hero-badge">MENDOZA · ARGENTINA</div>
+    <h1 class="hero-title">FUTSAL<br/><span>RIVADAVIA</span></h1>
+    <p class="hero-sub">Pasión, esfuerzo y compromiso en cada partido.<br/>Somos más que un equipo, somos una familia.</p>
+    <div class="hero-cta">
+      <a href="#cuotas" class="btn btn-primary">Pagar Cuota</a>
+      <a href="#club" class="btn btn-outline">Conocé el Club</a>
+    </div>
+  </div>
+  <div class="hero-ball"></div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item"><span class="stat-num">2015</span><span class="stat-label">Fundado</span></div>
+    <div class="stat-divider"></div>
+    <div class="stat-item"><span class="stat-num">45+</span><span class="stat-label">Jugadores</span></div>
+    <div class="stat-divider"></div>
+    <div class="stat-item"><span class="stat-num">12</span><span class="stat-label">Títulos</span></div>
+    <div class="stat-divider"></div>
+    <div class="stat-item"><span class="stat-num">3</span><span class="stat-label">Categorías</span></div>
+  </div>
+</section>
+
+<!-- ===== CLUB ===== -->
+<section class="club-section" id="club">
+  <div class="section-inner">
+    <div class="section-tag">EL CLUB</div>
+    <h2 class="section-title">Historia y <span>Valores</span></h2>
+    <div class="club-grid">
+      <div class="club-text">
+        <p>Futsal Rivadavia nació en 2015 con un sueño simple: crear un espacio donde el deporte, la amistad y el esfuerzo se encontraran. Con el tiempo, ese sueño creció hasta convertirse en uno de los clubes más queridos del departamento de Rivadavia, Mendoza.</p>
+        <p>Hoy contamos con tres categorías activas — Infantil, Juvenil y Mayor — y trabajamos día a día para que cada jugador tenga las mejores condiciones de entrenamiento y competencia.</p>
+        <div class="valores-grid">
+          <div class="valor-card">
+            <span class="valor-icon">🏆</span>
+            <h4>Excelencia</h4>
+            <p>Buscamos el máximo nivel en cada entrenamiento y competencia.</p>
+          </div>
+          <div class="valor-card">
+            <span class="valor-icon">🤝</span>
+            <h4>Compañerismo</h4>
+            <p>El equipo es la fuerza que nos impulsa a ganar juntos.</p>
+          </div>
+          <div class="valor-card">
+            <span class="valor-icon">❤️</span>
+            <h4>Pasión</h4>
+            <p>Naranja y negro en el corazón, siempre.</p>
+          </div>
+        </div>
+      </div>
+      <div class="club-visual">
+        <div class="club-card-big">
+          <div class="club-card-accent"></div>
+          <div class="club-jersey">
+            <div class="jersey-shape">
+              <span>RIVADAVIA</span>
+              <span class="jersey-num">10</span>
+            </div>
+          </div>
+          <p class="club-card-motto">"LA NARANJA QUE NUNCA SE APAGA"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALERÍA ===== -->
+<section class="galeria-section" id="galeria">
+  <div class="section-inner">
+    <div class="section-tag">GALERÍA</div>
+    <h2 class="section-title">Momentos <span>Inolvidables</span></h2>
+    <div class="galeria-grid">
+      <div class="galeria-item gi-big" style="--c:#FF6B00">
+        <div class="gi-overlay"><span>Torneo Apertura 2024</span></div>
+        <div class="gi-img gi1"></div>
+      </div>
+      <div class="galeria-item" style="--c:#1a1a1a">
+        <div class="gi-overlay"><span>Entrenamiento</span></div>
+        <div class="gi-img gi2"></div>
+      </div>
+      <div class="galeria-item" style="--c:#FF6B00">
+        <div class="gi-overlay"><span>Copa Rivadavia</span></div>
+        <div class="gi-img gi3"></div>
+      </div>
+      <div class="galeria-item" style="--c:#1a1a1a">
+        <div class="gi-overlay"><span>Campeones Juvenil</span></div>
+        <div class="gi-img gi4"></div>
+      </div>
+      <div class="galeria-item gi-wide" style="--c:#FF6B00">
+        <div class="gi-overlay"><span>Final Liga Mendocina 2023</span></div>
+        <div class="gi-img gi5"></div>
+      </div>
+    </div>
+    <p class="galeria-note">📸 Las fotos se cargan desde el panel de administración.</p>
+  </div>
+</section>
+
+<!-- ===== CUOTAS ===== -->
+<section class="cuotas-section" id="cuotas">
+  <div class="section-inner">
+    <div class="section-tag">PAGOS</div>
+    <h2 class="section-title">Gestión de <span>Cuotas</span></h2>
+    <p class="section-desc">Ingresá tu número de documento para consultar el estado de tus cuotas y realizar el pago.</p>
+
+    <!-- PASO 1: Buscar jugador -->
+    <div class="cuota-step" id="step1">
+      <div class="cuota-card">
+        <h3>Consultar mi Estado</h3>
+        <div class="form-group">
+          <label>Número de Documento (DNI)</label>
+          <input type="text" id="dniInput" placeholder="Ej: 38123456" maxlength="10" />
+        </div>
+        <button class="btn btn-primary btn-full" id="btnBuscarDNI">Consultar</button>
+        <div id="buscarError" class="form-error" style="display:none"></div>
+      </div>
+    </div>
+
+    <!-- PASO 2: Resultado -->
+    <div class="cuota-step" id="step2" style="display:none">
+      <div class="cuota-card">
+        <div class="jugador-info" id="jugadorInfo"></div>
+        <div class="cuotas-estado" id="cuotasEstado"></div>
+        <button class="btn btn-outline btn-sm" id="btnVolver" style="margin-top:1rem">← Volver</button>
+      </div>
+    </div>
+
+    <!-- PASO 3: Pagar -->
+    <div class="cuota-step" id="step3" style="display:none">
+      <div class="cuota-card">
+        <h3>Subir Comprobante de Pago</h3>
+        <p class="step3-desc">Realizá el pago a través de Mercado Pago y luego subí el comprobante aquí.</p>
+        <div class="mp-info">
+          <div class="mp-badge">💚 MERCADO PAGO</div>
+          <p id="mpAlias"><strong>Alias:</strong> futsal.rivadavia</p>
+          <p id="mpCvu"><strong>CVU:</strong> 0000003100099870123456</p>
+          <p id="mpMonto" class="mp-monto"></p>
+        </div>
+        <div class="form-group">
+          <label>Mes/es a pagar</label>
+          <div id="mesesPagar"></div>
+        </div>
+        <div class="form-group">
+          <label>Comprobante (imagen o PDF)</label>
+          <div class="upload-zone" id="uploadZone">
+            <span>📎 Arrastrá el comprobante aquí o hacé click para seleccionar</span>
+            <input type="file" id="comprobanteFile" accept="image/*,.pdf" style="display:none"/>
+          </div>
+          <div id="filePreview" style="display:none" class="file-preview"></div>
+        </div>
+        <div class="form-group">
+          <label>Comentario (opcional)</label>
+          <input type="text" id="comentarioPago" placeholder="Ej: Pago cuota marzo y abril" />
+        </div>
+        <button class="btn btn-primary btn-full" id="btnEnviarPago">Enviar Comprobante</button>
+        <button class="btn btn-outline btn-sm" id="btnVolverStep2" style="margin-top:0.5rem">← Volver</button>
+        <div id="pagoError" class="form-error" style="display:none"></div>
+        <div id="pagoSuccess" class="form-success" style="display:none"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section class="contacto-section" id="contacto">
+  <div class="section-inner">
+    <div class="section-tag">CONTACTO</div>
+    <h2 class="section-title">Hablemos <span>con Nosotros</span></h2>
+    <div class="contacto-grid">
+      <div class="contacto-info">
+        <div class="contacto-item">
+          <span class="ci-icon">📍</span>
+          <div>
+            <h4>Dirección</h4>
+            <p>Estadio Municipal, Rivadavia, Mendoza</p>
+          </div>
+        </div>
+        <div class="contacto-item">
+          <span class="ci-icon">📞</span>
+          <div>
+            <h4>Teléfono</h4>
+            <p>+54 260 4XX-XXXX</p>
+          </div>
+        </div>
+        <div class="contacto-item">
+          <span class="ci-icon">✉️</span>
+          <div>
+            <h4>Email</h4>
+            <p>info@futsalrivadavia.com.ar</p>
+          </div>
+        </div>
+        <div class="contacto-item">
+          <span class="ci-icon">🕐</span>
+          <div>
+            <h4>Horarios de Entrenamiento</h4>
+            <p>Lunes, Miércoles y Viernes — 19:00 a 21:00 hs</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-btn">📘 Facebook</a>
+          <a href="#" class="social-btn">📸 Instagram</a>
+          <a href="#" class="social-btn">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div class="contacto-form-wrap">
+        <form class="contacto-form" id="contactoForm">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" id="cfNombre" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="cfEmail" placeholder="tu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label>Mensaje</label>
+            <textarea id="cfMensaje" rows="4" placeholder="Contanos en qué podemos ayudarte..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+          <div id="contactoSuccess" class="form-success" style="display:none">✅ Mensaje enviado. ¡Te respondemos pronto!</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== UBICACIÓN ===== -->
+<section class="ubicacion-section" id="ubicacion">
+  <div class="section-inner">
+    <div class="section-tag">UBICACIÓN</div>
+    <h2 class="section-title">¿Dónde <span>Entrenamos?</span></h2>
+    <div class="mapa-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.123456!2d-68.4736!3d-33.1913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDExJzI4LjciUyA2OMKwMjgnMjUuMCJX!5e0!3m2!1ses!2sar!4v1234567890"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="mapa-pin-info">
+        <strong>📍 Estadio Municipal Rivadavia</strong><br/>
+        Rivadavia, Mendoza, Argentina
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <span class="logo-icon"><img src="assets/escudo.png" alt="Logo" /></span>
+      <span class="logo-text">FUTSAL<span>RIVADAVIA</span></span>
+    </div>
+    <p class="footer-copy">© 2024 Futsal Rivadavia · Todos los derechos reservados · Rivadavia, Mendoza</p>
+    <a href="admin.html" class="footer-admin-link">Panel Admin</a>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
