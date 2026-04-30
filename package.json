@@ -1,0 +1,35 @@
+{
+  "name": "futsal-rivadavia",
+  "version": "1.0.0",
+  "description": "Sitio web oficial de Futsal Rivadavia - Mendoza, Argentina",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "futsal",
+    "rivadavia",
+    "mendoza",
+    "deportes"
+  ],
+  "author": "Futsal Rivadavia",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "next": "16.2.4",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.5.0",
+    "postcss": "8.5.12",
+    "tailwindcss": "4.2.4",
+    "typescript": "6.0.3"
+  }
+}
